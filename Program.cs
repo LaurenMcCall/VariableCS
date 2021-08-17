@@ -17,6 +17,7 @@ namespace VariablesCS
             Console.Write("Enter your gamer tag: ");
             string userName = Console.ReadLine();
             Console.WriteLine("Hello, " + userName + "!");
+            //Adventure Mode — Using Logic
             if (userName == "Alice")
             {
                 Console.WriteLine("Welcome to the tea party!");
